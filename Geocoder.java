@@ -24,8 +24,8 @@ import java.util.Map;
 @Component
 public class Geocoder {
 
-    private final String GEOCODING_API_ENDPOINT = "https://geocode.search.hereapi.com/v1/geocode";
-    private final String API_KEY = "AIzaSyB5D8Li4SItwtyBP--MHCyUl7eJs8MuHrM" ;
+    private final String GEOCODING_API_ENDPOINT = "your_api_endpoint";
+    private final String API_KEY = "Enter_your_api_key" ;
 
     public Map<String, Double> geocodeSync(String address) {
         RestTemplate restTemplate = new RestTemplate();
